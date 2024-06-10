@@ -1,0 +1,42 @@
+h1{
+    text-align: left;
+    margin: 20px 0 20px 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.white-background-rectangle {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 400px 20px 20px;
+}
+
+.user-rectangle {
+    margin: 20px 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+table {
+    margin: 0 0 20px 20px;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+th, td {
+    width: 120px;
+    border: 1px solid black;
+}
+
+.back-homepage {
+    margin: 10px 0 0 20px;
+    font-size: 15px;
+}
+

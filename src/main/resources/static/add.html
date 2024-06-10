@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    
+</head>
+<h1> <a href="/users/view"><button class="btn btn-primary">Back to homepage</button></a></h1>
+<body>
+    <div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<h1 class="text-center mt-5 mb-4">New Rectangle</h1>
+				<form action="/users/add" method="post"> 
+                    
+					<div class="mb-3">
+						
+						<input type="text" id="name" name="name" class="form-control form-control-lg" 
+                            placeholder="Name" required>
+					</div>
+					<div class="mb-3">
+						
+						<input type="number" id="width" name="width" class="form-control form-control-lg" 
+                            placeholder="Wdith" required>
+					</div>
+                    <div class="mb-3">
+						
+						<input type="number" id="height" name="height" class="form-control form-control-lg" 
+                            placeholder="Height" required>
+					</div>
+					<div class="mb-3">
+						
+						<input type="text" id="color" name="color" class="form-control form-control-lg" 
+                            placeholder="Color" required>
+					</div>
+					
+                    
+                    <div class="d-grid gap-2">
+                        <input class="btn btn-primary" type="submit" value="SEND"></input>
+                    </div>
+
+                
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
